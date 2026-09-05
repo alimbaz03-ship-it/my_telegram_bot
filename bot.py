@@ -9,7 +9,7 @@ TOKEN = "8422804503:AAE1TbXLUXCQqEaqbKfFB_SLiAiaTE7NA5A"
 
 # - - - سرور کوچک برای گول زدن Render - - -
 app = Flask('')
-@app.route('')
+@app.route('/')
 def home():
 	return "ربات فعال است"
 	
